@@ -1,0 +1,53 @@
+.animal-card{
+    margin: 10px;
+    padding: 10px;
+}
+
+.animal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .animal-list li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .animal-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .animal-input {
+    margin-right: 10px;
+  }
+  
+  .animal-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .animal-button:hover {
+    background-color: #0069d9;
+  }
+  
+  .animal-delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .animal-delete-button:hover {
+    background-color: #c82333;
+  }
+  

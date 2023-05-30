@@ -1,9 +1,12 @@
 import "./App.css";
-import { Menu } from "./Menu";
+import Posts from "./Posts";
 
 const App = () => {
-  const menu = ["Úvod", "O nás", "Kontakt"];
-  return <Menu menu={menu} nadpis="ReactGirls" />;
+  return (
+    <>
+      <Posts />
+    </>
+  );
 };
 
 export default App;
